@@ -1,0 +1,145 @@
+body {
+    background-image:linear-gradient(0deg, rgba(139, 129, 129, 0.225),rgba(139, 129, 129, 0.225) ), url("nature.jpg");
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
+    }
+
+.intro h3{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 35px;
+    margin-top: 100px;
+}
+.intro p{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+    
+.portfolio{
+   margin-top: 200px;
+
+}
+.portfolio h1{
+    text-align: center;
+    color: #000000;
+}
+.portfoliorow {
+ display: flex;
+text-align: center;
+margin-top: 5px;
+
+
+    
+  }
+  
+.portfoliocolumn {
+    flex: 33.33%;
+    padding: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+   padding-bottom: 25px;
+   padding-top: 25px;
+   border: 3px solid;
+   border-radius: 15px;
+   background-color: #ffffff ;
+  }
+.portfoliocolumn h2{
+    cursor: pointer;
+    transition: 0.4s;
+}
+  .portfoliocolumn h2:hover{
+    color: #6855c6;
+  }
+  .portfoliocolumn button{
+    font-size: 14px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    color: #000000;
+    background-color: #49ed9e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 5px;
+}
+
+.portfoliocolumn button:hover{
+    background: #f5ff30;
+    color: #000;
+}
+   
+.formcontainer{
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 15px;
+    margin: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    flex: 50%;
+    background-color:rgb(234, 91, 91)
+
+
+  
+
+
+}
+.formcontainer h1{
+    text-align: center;
+}
+.formcontainer p{
+    font-size: 20px;
+}
+.formcontainer input{
+    width: 30%;
+}
+#forms button{
+    margin-top: 10px;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ 
+ 
+

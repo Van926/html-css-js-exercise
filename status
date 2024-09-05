@@ -68,8 +68,9 @@
         data-bs-content="A booking reservation program made for hotels to enable customers to book a reservation
          which includes time of check in and chek out, room type, number of persons, and calculates the price of the booking">
          More Details</button>
+         <h1>hello world</h1>
       </div>
-      
+
     </div>
   </div>
 </div>

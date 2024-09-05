@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+  </nav>
+
+
+<div class="container-fluid mt-3">
+  <div class ="intro">
+    <h3 id="home" >Welcome to my portfolio</h3>
+    <p >Hello, I am Van and this is my portfolio feel free to contact me.</p>
+  </div>
+  <div class = "portfolio" id="portfolio">
+    <h1 >My portfolio</h1>
+    <div class="portfoliorow">
+      <div class="portfoliocolumn">
+        <img src="atm.png" alt="testing" style="width:70px" >
+        <h2  class="colorChangeText">ATM Machine</h2>
+        <p> An ATM machine simulation in C++ programmed by me</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="ATM Machine program"
+         data-bs-content="An ATM machine simulation program made by me which includes getting the ID of the user and pin verification
+        as well as includes deposit, withdrawal and check balance with a security system which will terminate the program
+        if the user does not get the correct pin after 3 tries">More Details</button>
+      </div>
+      <div class="portfoliocolumn">
+        <img src="calcu.jpg" alt="testing" style="width:70px">
+        <h2  class="colorChangeText">Calculator</h2>
+        <p> A calculator designed in c++</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Calculator" 
+        data-bs-content="A calculator in c++ in which you can calculate any mathemathical equation">More Details</button>
+
+      </div>
+      <div class="portfoliocolumn">
+        <img src="hotel.jpg" alt="testing" style="width:90px">
+        <h2  class="colorChangeText">Hotel booking program</h2>
+        <p> A program for hotel booking reservation</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Hotel Booking program" 
+        data-bs-content="A booking reservation program made for hotels to enable customers to book a reservation
+         which includes time of check in and chek out, room type, number of persons, and calculates the price of the booking">
+         More Details</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<div class ="formcontainer">
+  <h1 id="contacts">Contact Me</h1>
+  <p>Cell No. 09770496433</p>
+  <P>Email: naldozavan1@gmail.com</P>
+  <form id="forms" action="/action_page.php">
+  <div class="mb-3 mt-3">
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+  </div>
+  <label for="comment">Comments:</label>
+  <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+  
+  <button id="submitbtn" class="btn btn-primary"onclick="showAlert()">Submit</button>
+
+</form>
+</div>
+
+
+<script src="portfolio js.js"></script>
+</body>
+</html>
